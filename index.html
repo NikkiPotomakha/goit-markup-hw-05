@@ -477,8 +477,44 @@
             <use href="./images/icons.svg#icon-modal-close"></use>
           </svg>
         </button>
-      </div>
+        <form class="modal-form" name="review_form">
+        <div>
+          <label>
+            Name
+            <input type="text" name="name" />
+          </label>
+        </div>
+        <div>
+          <label>
+            Phone
+            <input type="tel" name="phone" />
+          </label>
+        </div>
+        <div>
+          <label>
+            Email
+            <input type="email" name="email" />
+          </label>
+        </div>
+        <div>
+          <label class="form-label">
+            Comment
+            <textarea class="form-input" name="comment" placeholder="" rows="5" />Text input</textarea>
+          </label>
+        </div>
+        <div>
+          <label>
+            I accept the terms and conditions of the Privacy Policy
+            <input type="checkbox" name="subs_accept" value="" />
+          </label>
+        </div>
+        <div>
+      <button class="button_form" type="submit">Send</button>
     </div>
+      </form>
+    </div>
+  </div>
+</div>
 
     <!-- Scripts -->
     <script src="./js/modal.js"></script>
