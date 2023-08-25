@@ -960,11 +960,7 @@ img {
   border: none;
   fill: #f4f4fd;
 }
-.privacy-checkbox:focus {
-  background-color: var(--ocean);
-  border: none;
-  fill: var(--cloud);
-}
+
 .privacy-link {
   font-family: Roboto;
   font-size: 12px;
