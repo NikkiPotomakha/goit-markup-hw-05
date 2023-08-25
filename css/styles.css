@@ -895,9 +895,13 @@ img {
   outline: none;
   fill: #4d5ae5;
 }
-.modal-form .modal-form-texarea-container {
+.modal-form {
   margin-bottom: 16px;
 }
+.modal-form-texarea-container {
+  margin-bottom: 16px;
+}
+
 .modal-form-textarea {
   width: 100%;
   height: 120px;
