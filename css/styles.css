@@ -959,9 +959,6 @@ img {
   fill: #f4f4fd;
 }
 .privacy-checkbox {
-  background-color: var(--ocean);
-  border: none;
-  fill: var(--cloud);
   fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
