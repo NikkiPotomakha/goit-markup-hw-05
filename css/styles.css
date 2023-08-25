@@ -142,6 +142,13 @@ img {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.nav-menu:hover,
+.nav-menu:focus {
+  color: #404bbf;
+}
+.menu .link.current {
+  color: var(--ocean);
+}
 .nav-menu {
   font-family: "Roboto", sans-serif;
   color: var(--navy-blue);
@@ -153,14 +160,6 @@ img {
   padding: 24px 0;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav-menu:hover,
-.nav-menu:focus {
-  color: #404bbf;
-}
-.menu .link.current {
-  color: var(--ocean);
 }
 .nav-menu-link {
   text-decoration: none;
@@ -174,12 +173,6 @@ img {
   height: 4px;
   border-radius: 2px;
   background: var(--ocean);
-}
-.menu-item {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.address-item {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-list {
   font-family: "Roboto", sans-serif;
@@ -197,6 +190,12 @@ img {
 .contact-list:hover,
 .contact-list:focus {
   color: #404bbf;
+}
+.menu-item {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.address-item {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address {
   font-style: normal;
