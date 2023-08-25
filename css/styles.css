@@ -890,6 +890,7 @@ img {
 }
 .modal-form-input:focus .modal-form-icon {
   outline: none;
+  fill: #4d5ae5;
   border-color: #4d5ae5;
 }
 .modal-form .modal-form-texarea-container {
