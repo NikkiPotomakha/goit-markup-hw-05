@@ -186,6 +186,10 @@ img {
   font-style: normal;
   text-decoration: none;
 }
+.address-list {
+  display: flex;
+}
+
 /* Main first section */
 
 .dark-section {
