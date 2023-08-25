@@ -911,6 +911,7 @@ img {
 .modal-form-privacy {
   align-items: center;
   justify-content: center;
+  margin-bottom: 24px;
 }
 .checkbox-modal {
   width: 16px;
