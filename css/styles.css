@@ -748,6 +748,7 @@ img {
   min-width: 16px;
   justify-content: center;
   align-items: center;
+  min-width: 165px;
   gap: 16px;
   height: 40px;
   padding: 8px 24px;
