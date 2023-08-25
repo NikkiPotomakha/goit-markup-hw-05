@@ -956,7 +956,7 @@ img {
 .input[type="checkbox"]:checked .modal-form-priv .privacy-checkbox {
   background-color: var(--ocean);
   border: none;
-  fill: var(--cloud);
+  fill: #f4f4fd;
 }
 .privacy-checkbox {
   background-color: var(--ocean);
