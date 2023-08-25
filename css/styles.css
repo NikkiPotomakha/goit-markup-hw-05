@@ -863,6 +863,7 @@ img {
 }
 .modal-form {
   margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-form-form {
   position: relative;
@@ -890,6 +891,7 @@ img {
 .modal-form-input:focus .modal-form-icon {
   fill: var(--iris);
   outline: none;
+  border-color: #4d5ae5;
 }
 .modal-form .modal-form-texarea-container {
   margin-bottom: 16px;
