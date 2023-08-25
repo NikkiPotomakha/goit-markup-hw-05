@@ -949,21 +949,21 @@ img {
   height: 16px;
   margin-right: 5px;
   border-radius: 2px;
+  fill: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input[type="checkbox"]:checked .modal-form-priv {
+.input[type="checkbox"]:checked .modal-form-priv .privacy-checkbox {
   background-color: var(--ocean);
   border: none;
   fill: #f4f4fd;
 }
-.privacy-checkbox {
+.privacy-checkbox:focus {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
-  fill: transparent;
-  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .privacy-link {
   font-family: Roboto;
