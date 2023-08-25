@@ -910,3 +910,10 @@ img {
   align-items: center;
   justify-content: center;
 }
+.checkbox-modal {
+  width: 16px;
+  height: 16px;
+  stroke-width: 1px;
+}
+.modal-form-priv {
+}
