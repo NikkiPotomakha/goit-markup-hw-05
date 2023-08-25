@@ -854,7 +854,7 @@ img {
   color: var(--navy-blue);
 }
 .modal-form {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .modal-form-form {
   position: relative;
