@@ -893,7 +893,9 @@ img {
 .modal-form-container {
   margin-bottom: 8px;
 }
-
+.modal-form {
+  margin-bottom: 16px;
+}
 .modal-form-form {
   position: relative;
 }
